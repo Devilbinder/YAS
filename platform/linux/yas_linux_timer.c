@@ -50,7 +50,6 @@ int yas_timer_platform_init(void){
     }
 
     return YAS_OK;
-
 }
 
 
@@ -154,7 +153,6 @@ int yas_free_timer(yas_timer_t *timer){
 
     next = current->next;
     prev = current->prev;
-
 
     if(prev != NULL){
        prev->next = next; 
